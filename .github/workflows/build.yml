@@ -16,7 +16,7 @@ jobs:
       shell: bash
       run: |
           cd formatter_lib/
-          cmake -h. -B_build
+          cmake -H. -B_build
           cmake --build _build
     - name: formatter_ex_lib
       shell: bash
